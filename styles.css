@@ -6,7 +6,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0e6ff;
+    background-color: #f0e6ff; /* Light background for contrast */
     color: #333;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background: #6a1b9a;
+    background: #6a1b9a; /* Purple color */
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -46,12 +46,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffeb3b;
+    color: #ffeb3b; /* Hover color */
     transform: scale(1.1);
 }
 
 .hero {
-    background: linear-gradient(135deg, #8e24aa, #d5006d);
+    background: linear-gradient(135deg, #8e24aa, #d5006d); /* Gradient for hero section */
     color: #fff;
     padding: 50px 0;
     text-align: center;
@@ -70,7 +70,7 @@ nav ul li a:hover {
 .cta {
     display: inline-block;
     padding: 10px 20px;
-    background: #ffeb3b;
+    background: #ffeb3b; /* Call to action button color */
     color: #333;
     text-decoration: none;
     border-radius: 5px;
@@ -78,7 +78,7 @@ nav ul li a:hover {
 }
 
 .cta:hover {
-    background: #fdd835;
+    background: #fdd835; /* Hover effect for CTA */
     transform: translateY(-2px);
 }
 
@@ -91,7 +91,7 @@ main {
 }
 
 h2 {
-    color: #6a1b9a;
+    color: #6a1b9a; /* Header color */
     margin-bottom: 20px;
     position: relative;
 }
@@ -101,7 +101,7 @@ h2::after {
     display: block;
     width: 50px;
     height: 4px;
-    background: #d5006d;
+    background: #d5006d; /* Underline color */
     margin-top: 5px;
     transition: width 0.3s;
 }
@@ -113,7 +113,7 @@ h2::after {
 }
 
 .card {
-    background: #fff;
+    background: #fff; /* Card background color */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -121,14 +121,14 @@ h2::after {
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-5px); /* Hover effect */
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 }
 
 footer {
     text-align: center;
     padding: 20px 0;
-    background: #6a1b9a;
+    background: #6a1b9a; /* Footer color */
     color: #fff;
     position: relative;
     bottom: 0;
